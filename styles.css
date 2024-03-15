@@ -1,0 +1,91 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.bg-primary {
+    background-color: #007bff !important;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+/* Login page styles */
+.login-container {
+    max-width: 400px;
+    margin: auto;
+}
+
+.login-form {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Dashboard page styles */
+.dashboard-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Upload page styles */
+.upload-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.upload-form {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.upload-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Flash message styles */
+.alert {
+    border-radius: 10px;
+}
+

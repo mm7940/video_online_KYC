@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome, {{ user.username }}</h2>
+        <p>Name: {{ user.name }}</p>
+        <p>Contact Number: {{ user.contact_number }}</p>
+        <p>Address: {{ user.address }}</p>
+        <p>PAN Card Number: {{ user.pan_card_number }}</p>
+        <p>Aadhar Card Number: {{ user.aadhar_card_number }}</p>
+        <p>Profession: {{ user.profession }}</p>
+        <a href="{{ url_for('upload') }}" class="btn btn-primary">Upload Documents</a>
+        <a href="{{ url_for('logout') }}" class="btn btn-danger">Logout</a>
+    </div>
+</body>
+</html>
